@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Logs and temp
+*.log
+*.tmp
+
+# Data (keep out of git)
+data/raw/
+data/processed/
+uploads/
+
+# Model weights
+*.pth
+
+# OS/editor
+.DS_Store
+*.swp
+
+# Node
+node_modules/

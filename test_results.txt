@@ -1,0 +1,16 @@
+ECO-Q-Net Model Test Results
+================================================================================
+
+Overall Accuracy: 4/9 (44.44%)
+
+Detailed Results:
+--------------------------------------------------------------------------------
+sample 2.jpg              | Truth: predator   | Pred: predator   | Conf: 0.9986 | Correct: True
+sample 3.jpg              | Truth: predator   | Pred: predator   | Conf: 0.9878 | Correct: True
+sample 4.jpg              | Truth: predator   | Pred: predator   | Conf: 0.9915 | Correct: True
+sample 5.jpg              | Truth: predator   | Pred: deer       | Conf: 0.5493 | Correct: False
+sample.jpeg               | Truth: deer       | Pred: predator   | Conf: 0.7305 | Correct: False
+sample.jpg                | Truth: deer       | Pred: predator   | Conf: 0.5170 | Correct: False
+test_deer.jpg             | Truth: deer       | Pred: predator   | Conf: 0.5170 | Correct: False
+test_other.jpg            | Truth: other      | Pred: other      | Conf: 0.8231 | Correct: True
+test_predator.jpg         | Truth: predator   | Pred: other      | Conf: 0.5671 | Correct: False
